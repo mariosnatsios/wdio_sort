@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642849997117' stop='1642850000767'>
+    <name>Tables Page</name>
+    <title>Tables Page</title>
+    <test-cases>
+        <test-case start='1642849997118' status='passed' stop='1642849999023'>
+            <name>should open the main url and verify the title</name>
+            <title>should open the main url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1642849997120' status='passed' stop='1642849999009'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642849997124' status='passed' stop='1642849997373'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='c3dc2f51-28f7-4415-bc29-e0dc70d484e7-attachment.json' type='application/json' size='110'/>
+                                <attachment title='Response' source='f1d4463c-7357-4e61-ab1b-98e04b9d7905-attachment.json' type='application/json' size='57'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1642849999014' status='passed' stop='1642849999020'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a644c94c-53b2-4b7c-b3f6-032019581f9e-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1642849999024' status='failed' stop='1642850000739'>
+            <name>should check if a table is sorted</name>
+            <title>should check if a table is sorted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1642849999024' status='passed' stop='1642850000332'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642849999025' status='passed' stop='1642849999606'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='5fafa28e-0718-4f49-a422-5009339fc5c1-attachment.json' type='application/json' size='110'/>
+                                <attachment title='Response' source='b11ab083-5f6c-47be-a2ab-18b267179665-attachment.json' type='application/json' size='57'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1642850000334' status='failed' stop='1642850000739'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642850000336' status='passed' stop='1642850000737'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='285bc14f-6fd8-478a-9496-0de6cdc74aea-attachment.json' type='application/json' size='92'/>
+                                <attachment title='Screenshot' source='5e66c569-d550-4e15-be7b-7d9c0b7dd271-attachment.png' type='image/png' size='327572'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1642850000754' status='undefined'>
+                    <name>GET /session/:sessionId/element/b7079ec6-a2ac-499b-8fa5-6bc32e959510/text</name>
+                    <title>GET /session/:sessionId/element/b7079ec6-a2ac-499b-8fa5-6bc32e959510/text</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642850000755' status='undefined'>
+                            <name>GET /session/:sessionId/element/734311a6-ebed-4f22-afae-94d41b9e0c75/text</name>
+                            <title>GET /session/:sessionId/element/734311a6-ebed-4f22-afae-94d41b9e0c75/text</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1642850000756' status='undefined'>
+                                    <name>GET /session/:sessionId/element/acf11b3a-9fa5-4419-9a65-d331ca02db2b/text</name>
+                                    <title>GET /session/:sessionId/element/acf11b3a-9fa5-4419-9a65-d331ca02db2b/text</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1642850000758' status='undefined'>
+                                            <name>GET /session/:sessionId/element/7f366417-f160-4370-a8b6-5ce3ce439736/text</name>
+                                            <title>GET /session/:sessionId/element/7f366417-f160-4370-a8b6-5ce3ce439736/text</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1642850000759' status='undefined'>
+                                                    <name>GET /session/:sessionId/element/c62f2ead-3fc4-40df-bb98-ab843581eb78/text</name>
+                                                    <title>GET /session/:sessionId/element/c62f2ead-3fc4-40df-bb98-ab843581eb78/text</title>
+                                                    <attachments/>
+                                                    <steps>
+                                                        <step start='1642850000760' status='undefined'>
+                                                            <name>GET /session/:sessionId/element/b3bc33ce-54b6-4c19-afb0-e2056ff93177/text</name>
+                                                            <title>GET /session/:sessionId/element/b3bc33ce-54b6-4c19-afb0-e2056ff93177/text</title>
+                                                            <attachments/>
+                                                            <steps>
+                                                                <step start='1642850000761' status='undefined'>
+                                                                    <name>GET /session/:sessionId/element/89636d55-e30e-4995-a2bd-3924c6b961e9/text</name>
+                                                                    <title>GET /session/:sessionId/element/89636d55-e30e-4995-a2bd-3924c6b961e9/text</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1642850000762' status='undefined'>
+                                                                            <name>GET /session/:sessionId/element/9cf66228-3859-4adf-a15a-ebe3f821c6cb/text</name>
+                                                                            <title>GET /session/:sessionId/element/9cf66228-3859-4adf-a15a-ebe3f821c6cb/text</title>
+                                                                            <attachments/>
+                                                                            <steps>
+                                                                                <step start='1642850000763' status='undefined'>
+                                                                                    <name>GET /session/:sessionId/element/7bf22346-2793-4d8b-81d1-ea9ad0bf9e2e/text</name>
+                                                                                    <title>GET /session/:sessionId/element/7bf22346-2793-4d8b-81d1-ea9ad0bf9e2e/text</title>
+                                                                                    <attachments/>
+                                                                                    <steps>
+                                                                                        <step start='1642850000764' status='undefined'>
+                                                                                            <name>GET /session/:sessionId/element/64656083-7113-4eee-9b96-dac4b0775133/text</name>
+                                                                                            <title>GET /session/:sessionId/element/64656083-7113-4eee-9b96-dac4b0775133/text</title>
+                                                                                            <attachments/>
+                                                                                            <steps/>
+                                                                                        </step>
+                                                                                    </steps>
+                                                                                </step>
+                                                                            </steps>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='f0a38f92-a45b-4a51-8804-1628d37c7a3b-attachment.json' type='application/json' size='912'/>
+            </attachments>
+            <failure>
+                <message>TypeError: tablesPage.textElements is not a function</message>
+                <stack-trace>TypeError: tablesPage.textElements is not a function
+                    at UserContext.&lt;anonymous> (/Users/mariosnatsios/Desktop/wdio_sort/test/specs/tables.page.spec.js:15:39)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

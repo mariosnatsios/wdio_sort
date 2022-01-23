@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642848577466' stop='1642848579690'>
+    <name>Tables Page</name>
+    <title>Tables Page</title>
+    <test-cases>
+        <test-case start='1642848577468' status='failed' stop='1642848578844'>
+            <name>should open the main url and verify the title</name>
+            <title>should open the main url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1642848577470' status='failed' stop='1642848578844'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642848577473' status='passed' stop='1642848577735'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='c39e60d6-f477-4edc-8fe9-bcb0af37eabb-attachment.json' type='application/json' size='110'/>
+                                <attachment title='Response' source='6e34427c-036f-4335-ac58-fcf1aa0ff1f5-attachment.json' type='application/json' size='57'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1642848578487' status='passed' stop='1642848578841'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='5533fcd6-7ecf-4502-afac-13160ec1e8c7-attachment.png' type='image/png' size='51637'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=97.0.4692.99)</message>
+                <stack-trace>0   chromedriver                        0x000000010f452e69 chromedriver + 5160553
+                1   chromedriver                        0x000000010f3dd593 chromedriver + 4679059
+                2   chromedriver                        0x000000010ef912c8 chromedriver + 172744
+                3   chromedriver                        0x000000010ef8b1b7 chromedriver + 147895
+                4   chromedriver                        0x000000010ef7ce4d chromedriver + 89677
+                5   chromedriver                        0x000000010ef7dc06 chromedriver + 93190
+                6   chromedriver                        0x000000010ef7d0c6 chromedriver + 90310
+                7   chromedriver                        0x000000010ef7c6a6 chromedriver + 87718
+                8   chromedriver                        0x000000010ef7b6dc chromedriver + 83676
+                9   chromedriver                        0x000000010ef7b9d3 chromedriver + 84435
+                10  chromedriver                        0x000000010ef92cfe chromedriver + 179454
+                11  chromedriver                        0x000000010eff7861 chromedriver + 591969
+                12  chromedriver                        0x000000010efe4312 chromedriver + 512786
+                13  chromedriver                        0x000000010eff70ab chromedriver + 589995
+                14  chromedriver                        0x000000010efe4623 chromedriver + 513571
+                15  chromedriver                        0x000000010efb9dce chromedriver + 339406
+                16  chromedriver                        0x000000010efbb105 chromedriver + 344325
+                17  chromedriver                        0x000000010f40e23e chromedriver + 4878910
+                18  chromedriver                        0x000000010f425d17 chromedriver + 4975895
+                19  chromedriver                        0x000000010f42ba3f chromedriver + 4999743
+                20  chromedriver                        0x000000010f42661a chromedriver + 4978202
+                21  chromedriver                        0x000000010f402bb1 chromedriver + 4832177
+                22  chromedriver                        0x000000010f442fd8 chromedriver + 5095384
+                23  chromedriver                        0x000000010f443161 chromedriver + 5095777
+                24  chromedriver                        0x000000010f45a2a8 chromedriver + 5190312
+                25  libsystem_pthread.dylib             0x00007ff80b7e9514 _pthread_start + 125
+                26  libsystem_pthread.dylib             0x00007ff80b7e502f thread_start + 15</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642848578845' status='failed' stop='1642848579690'>
+            <name>should check if a table is sorted</name>
+            <title>should check if a table is sorted</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
+            </parameters>
+            <steps>
+                <step start='1642848578845' status='failed' stop='1642848579690'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642848578846' status='passed' stop='1642848578954'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='e6e6694d-dd2d-49ce-96df-6c6e1a46a6a3-attachment.json' type='application/json' size='110'/>
+                                <attachment title='Response' source='736c5beb-7dfa-4043-bdb6-452b8c4dd5f0-attachment.json' type='application/json' size='57'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1642848579356' status='passed' stop='1642848579689'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='20287dbf-d15f-4ad9-a78f-7cfe221c3c33-attachment.png' type='image/png' size='51637'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=97.0.4692.99)</message>
+                <stack-trace>0   chromedriver                        0x000000010f452e69 chromedriver + 5160553
+                1   chromedriver                        0x000000010f3dd593 chromedriver + 4679059
+                2   chromedriver                        0x000000010ef912c8 chromedriver + 172744
+                3   chromedriver                        0x000000010ef8b1b7 chromedriver + 147895
+                4   chromedriver                        0x000000010ef7ce4d chromedriver + 89677
+                5   chromedriver                        0x000000010ef7dc06 chromedriver + 93190
+                6   chromedriver                        0x000000010ef7d0c6 chromedriver + 90310
+                7   chromedriver                        0x000000010ef7c6a6 chromedriver + 87718
+                8   chromedriver                        0x000000010ef7b6dc chromedriver + 83676
+                9   chromedriver                        0x000000010ef7b9d3 chromedriver + 84435
+                10  chromedriver                        0x000000010ef92cfe chromedriver + 179454
+                11  chromedriver                        0x000000010eff7861 chromedriver + 591969
+                12  chromedriver                        0x000000010efe4312 chromedriver + 512786
+                13  chromedriver                        0x000000010eff70ab chromedriver + 589995
+                14  chromedriver                        0x000000010efe4623 chromedriver + 513571
+                15  chromedriver                        0x000000010efb9dce chromedriver + 339406
+                16  chromedriver                        0x000000010efbb105 chromedriver + 344325
+                17  chromedriver                        0x000000010f40e23e chromedriver + 4878910
+                18  chromedriver                        0x000000010f425d17 chromedriver + 4975895
+                19  chromedriver                        0x000000010f42ba3f chromedriver + 4999743
+                20  chromedriver                        0x000000010f42661a chromedriver + 4978202
+                21  chromedriver                        0x000000010f402bb1 chromedriver + 4832177
+                22  chromedriver                        0x000000010f442fd8 chromedriver + 5095384
+                23  chromedriver                        0x000000010f443161 chromedriver + 5095777
+                24  chromedriver                        0x000000010f45a2a8 chromedriver + 5190312
+                25  libsystem_pthread.dylib             0x00007ff80b7e9514 _pthread_start + 125
+                26  libsystem_pthread.dylib             0x00007ff80b7e502f thread_start + 15</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
